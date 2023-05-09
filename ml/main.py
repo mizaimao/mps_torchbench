@@ -7,7 +7,7 @@ import pytorch_lightning as pl
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 
 
-from trainer_customized_lightning import ResNet50Model
+from resnet50 import ResNet50Model
 
 BATCH_SIZE: int = 128
 N_WORKERS: int = 0
